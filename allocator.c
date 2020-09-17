@@ -50,7 +50,7 @@ void allocate(int n) {
     memcpy(p, (char *)&init_book, sizeof(book_t));
 }
 
-// The parameter was renamed from size to reqeuested_size to
+// The parameter was renamed from size to requested_size to
 // avoid clash with the global size variable.
 void *mymalloc(int requested_size) {
     // Loop variable, used to iterate over all the books present in the
